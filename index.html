@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Round Robin</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-4">
+        <h1 class="text-center">Simulador de Algoritmo Round Robin</h1>
+
+        <div class="form-group">
+            <label for="numProcesos">Número de procesos:</label>
+            <input type="number" id="numProcesos" class="form-control" placeholder="Ingresa el número de procesos a simular">
+        </div>
+        
+        <button class="btn btn-primary" onclick="iniciarSimulacion()">Iniciar Simulación</button>
+        
+        <div id="resultados" class="mt-4"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
